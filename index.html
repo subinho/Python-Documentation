@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/CSS/index.css">
+    <title>Documentation</title>
+</head>
+<body>
+    <header id='head'>
+       
+        <nav id='navbar'>
+            <header><h3 id='name'>Python Documentation</h3><br></header>
+            <ul>
+                <li><a class='nav-link' href="#The_Python_Tutorial">The Python Tutorial</a></li>
+                <li><a class='nav-link' href="#Whetting_Your_Appetite">Whetting Your Appetite</a></li>
+                <li><a class='nav-link' href="#Using_the_Python_Interpreter">Using the Python Interpreter</a></li>
+                <li><a class='nav-link' href="#An_Informal_Introduction_to_Python">An Informal Introduction to Python</a></li>
+                <li><a class='nav-link' href="#More_Control_Flow_Tools">More Control Flow Tools</a></li>
+                <li><a class='nav-link' href="#Data_Structures">Data Structures</a></li>
+                <li><a class='nav-link' href="#Modules">Modules</a></li>
+                <li><a class='nav-link' href="#Input_and_Output">Input and Output</a></li>
+                <li><a class='nav-link' href="#Errors_and_Exceptions">Errors and Exceptions</a></li>
+                <li><a class='nav-link' href="#Classes">Classes</a></li>
+                <li><a class='nav-link' href="#Other_Languages">Other Languages</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="main-doc">  
+        <section class='main-section' id='The_Python_Tutorial'>
+            <header><h1>The Python Tutorial</h1></header>
+            <p>
+                Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, 
+                together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms. <br><br>
+
+                The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python Web site, <a target='_blank' href="https://www.python.org/">https://www.python.org/</a>, and 
+                may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation. <br><br>
+
+                The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.<br><br>
+
+                This tutorial introduces the reader informally to the basic concepts and features of the Python language and system. It helps to have a Python interpreter handy for hands-on experience, but all examples are self-contained, so the tutorial can be 
+                read off-line as well.<br><br>
+
+                For a description of standard objects and modules, see <a target='_blank' href=''https://docs.python.org/3/library/index.html#library-index'>The Python Standard Library</a>. 
+                <a target='_blank' href="https://docs.python.org/3/reference/index.html#reference-index">Python Language Reference</a>  gives a more formal definition of the language. To write extensions in C or C++, 
+                read <a target='_blank' href='https://docs.python.org/3/extending/index.html#extending-index'>Extending and Embedding the 
+                    Python Interpreter</a> and <a target='_blank' href="https://docs.python.org/3/c-api/index.html#c-api-index">Python/C API Reference Manual</a>. There are also several books covering Python in depth.<br><br>
+
+                This tutorial does not attempt to be comprehensive and cover every single feature, or even every commonly used feature. Instead, it introduces many of Python’s most noteworthy features, and will give you a good idea of the language’s 
+                flavor and style. After reading it, you will be able to read and write Python modules and programs, and you will be ready to learn more about the various Python library modules 
+                described in <a target='_blank' href="https://docs.python.org/3/library/index.html#library-index">The Python Standard Library</a> .<br><br>
+                            </p>
+        </section>
+
+        <section class='main-section' id='Whetting_Your_Appetite'>
+            <header><h1>Whetting Your Appetite</h1></header>
+            <p>
+                If you do much work on computers, eventually you find that there’s some task you’d like to automate. For example, you may wish to perform a search-and-replace over a large number of text files, or rename and rearrange a bunch of 
+                photo files in a complicated way. Perhaps you’d like to write a small custom database, or a specialized GUI application, or a simple game.<br><br>
+
+                If you’re a professional software developer, you may have to work with several C/C++/Java libraries but find the usual write/compile/test/re-compile cycle is too slow. Perhaps you’re writing a test suite for such a library and find writing the testing 
+                code a tedious task. Or maybe you’ve written a program that could use an extension language, and you don’t want to design and implement a whole new language for your application.<br><br>
+
+                Python is just the language for you.
+
+                You could write a Unix shell script or Windows batch files for some of these tasks, but shell scripts are best at moving around files and changing text data, not well-suited for GUI applications or games. You could write a C/C++/Java program, 
+                but it can take a lot of development time to get even a first-draft program. Python is simpler to use, available on Windows, Mac OS X, and Unix operating systems, and will help you get the job done more quickly.<br><br>
+
+                Python is simple to use, but it is a real programming language, offering much more structure and support for large programs than shell scripts or batch files can offer. On the other hand, Python also offers much more error checking than C, and, 
+                being a very-high-level language, it has high-level data types built in, such as flexible arrays and dictionaries. Because of its more general data types Python is applicable to a much larger problem domain than Awk or even Perl, yet many things 
+                are at least as easy in Python as in those languages.<br><br>
+
+                Python allows you to split your program into modules that can be reused in other Python programs. It comes with a large collection of standard modules that you can use as the basis of your programs — or as examples to start learning to program 
+                in Python. Some of these modules provide things like file I/O, system calls, sockets, and even interfaces to graphical user interface toolkits like Tk.<br><br>
+
+                Python is an interpreted language, which can save you considerable time during program development because no compilation and linking is necessary. The interpreter can be used interactively, which makes it easy to experiment with features of the 
+                language, to write throw-away programs, or to test functions during bottom-up program development. It is also a handy desk calculator.<br><br>
+
+                Python enables programs to be written compactly and readably. Programs written in Python are typically much shorter than equivalent C, C++, or Java programs, for several reasons:
+
+                the high-level data types allow you to express complex operations in a single statement;
+
+                statement grouping is done by indentation instead of beginning and ending brackets;
+
+                no variable or argument declarations are necessary.
+
+                Python is extensible: if you know how to program in C it is easy to add a new built-in function or module to the interpreter, either to perform critical operations at maximum speed, or to link Python programs to libraries that may only be available in 
+                binary form (such as a vendor-specific graphics library). Once you are really hooked, you can link the Python interpreter into an application written in C and use it as an extension or command language for that application.
+
+                By the way, the language is named after the BBC show “Monty Python’s Flying Circus” and has nothing to do with reptiles. Making references to Monty Python skits in documentation is not only allowed, it is encouraged!
+
+                Now that you are all excited about Python, you’ll want to examine it in some more detail. Since the best way to learn a language is to use it, the tutorial invites you to play with the Python interpreter as you read.
+
+                In the next chapter, the mechanics of using the interpreter are explained. This is rather mundane information, but essential for trying out the examples shown later.
+
+                The rest of the tutorial introduces various features of the Python language and system through examples, beginning with simple expressions, statements and data types, through functions and modules, and finally touching upon advanced concepts 
+                like exceptions and user-defined classes.
+            </p>
+        </section>
+
+        <section class='main-section' id='Using_the_Python_Interpreter'>
+            <header><h1>Using the Python Interpreter</h1></header>
+            <p>
+                The Python interpreter is usually installed as /usr/local/bin/python3.9 on those machines where it is available; putting /usr/local/bin in your Unix shell’s search path makes it possible to start it by typing the command:<br><br>
+
+                <samp class='yellow'>Python 3.9</samp><br><br>
+                to the shell. <a target='_blank' href="https://docs.python.org/3/tutorial/interpreter.html#id2">[1]</a> Since the choice of the directory where the interpreter lives is an installation option, other places are possible; check with your local Python guru 
+                or system administrator. (E.g., /usr/local/python</code> is a popular alternative location.)<br><br>
+
+                On Windows machines where you have installed Python from the <a target='_blank' href="https://docs.python.org/3/using/windows.html#windows-store">Microsoft Store</a>, the <code>/python3.9</code> command will be available. If you have 
+                the <a target='_blank' href="https://docs.python.org/3/using/windows.html#launcher">py.exe launcher installed</a>, you can use the  <code>py</code> command. See <a target='_blank' href="https://docs.python.org/3/using/windows.html#setting-envvars">Excursus: Setting environment variables</a>  for
+                other ways to launch Python.<br><br>
+
+                Typing an end-of-file character (Control-D on Unix, Control-Z on Windows) at the primary prompt causes the interpreter to exit with a zero exit status. If that doesn’t work, you can exit the interpreter by typing the following command: quit().<br><br>
+
+                The interpreter’s line-editing features include interactive editing, history substitution and code completion on systems that support the <a target='_blank' href="https://tiswww.case.edu/php/chet/readline/rltop.html">GNU Readline library</a> . 
+                Perhaps the quickest check to see whether command line editing is supported is typing 
+                Control-P to the first Python prompt you get. If it beeps, you have command line editing; see Appendix <a target='_blank' href="https://docs.python.org/3/tutorial/interactive.html#tut-interacting">Interactive Input Editing and History Substitution</a>  
+                troduction to the keys. If nothing appears to happen, or if ^P is echoed, command
+                line editing isn’t available; you’ll only be able to use backspace to remove characters from the current line.<br><br>
+
+                The interpreter operates somewhat like the Unix shell: when called with standard input connected to a tty device, it reads and executes commands interactively; when called with a file name argument or with a file as standard input, it reads and 
+                executes a script from that file.<br><br>
+
+                A second way of starting the interpreter is <code> python -c command [arg] ...</code>, which executes the statement(s) in command, analogous to the shell’s -c option. Since Python statements often contain spaces or other characters that are special to the shell, 
+                it is usually advised to quote command in its entirety with single quotes.<br><br>
+
+                Some Python modules are also useful as scripts. These can be invoked using <code>python -m module [arg] ...</code>, which executes the source file for module as if you had spelled out its full name on the command line.<br><br>
+
+                When a script file is used, it is sometimes useful to be able to run the script and enter interactive mode afterwards. This can be done by passing -i before the script.
+
+                All command line options are described in <a target='_blank' href="https://docs.python.org/3/using/cmdline.html#using-on-general"> Command line and environment.</a>
+            </p>
+        </section>
+
+        <section class='main-section' id='An_Informal_Introduction_to_Python'>
+            <header><h1>An Informal Introduction to Python</h1></header>
+            <p>
+                In the following examples, input and output are distinguished by the presence or absence of prompts (>>> and …): to repeat the example, you must type everything after the prompt, when the prompt appears; 
+                lines that do not begin with a prompt are output from the interpreter. Note that a secondary prompt on a line by itself in an example means you must type a blank line; this is used to end a multi-line command.<br><br>
+
+                Many of the examples in this manual, even those entered at the interactive prompt, include comments. Comments in Python start with the hash character, #, and extend to the end of the physical line. A comment may appear 
+                at the start of a line or following whitespace or code, but not within a string literal. A hash character within a string literal is just a hash character. Since comments are to clarify code and are not interpreted by Python, they may 
+                be omitted when typing in examples.<br><br>
+                Some examples: <br><br>
+
+                <code class='block'> 
+                # this is the first comment<br><br>
+                spam = 1  # and this is the second comment<br><br>
+               # ... and now a third!<br><br>
+                text = "# This is not a comment because it's inside quotes."</code>
+                
+
+            </p>
+        </section>
+
+        <section class='main-section' id='More_Control_Flow_Tools'>
+        <header><h1>More Control Flow Tools</h1></header>
+            <p>
+                Besides the while statement just introduced, Python uses the usual flow control statements known from other languages, with some twists.
+            </p>
+        </section>
+
+        <section class='main-section' id='Data_Structures'>
+        <header><h1>Data Structures</h1></header>
+            <p>
+                This chapter describes some things you’ve learned about already in more detail, and adds some new things as well.
+            </p>
+        </section>
+
+        <section class='main-section' id='Modules'>
+        <header><h1>Modules</h1></header>
+            <p>
+                If you quit from the Python interpreter and enter it again, the definitions you have made (functions and variables) are lost. Therefore, if you want to write a somewhat longer program, you are better off using a text editor 
+                to prepare the input for the interpreter and running it with that file as input instead. This is known as creating a script. As your program gets longer, you may want to split it into several files for easier maintenance. 
+                You may also want to use a handy function that you’ve written in several programs without copying its definition into each program.<br><br>
+
+                To support this, Python has a way to put definitions in a file and use them in a script or in an interactive instance of the interpreter. Such a file is called a module; definitions from a module can be imported into other modules or 
+                into the main module (the collection of variables that you have access to in a script executed at the top level and in calculator mode).<br><br>
+
+                A module is a file containing Python definitions and statements. The file name is the module name with the suffix <code>.py</code> appended. Within a module, the module’s name (as a string) is available as the value of the global 
+                variable <code>__name__</code>. 
+                For instance, use your favorite text editor to create a file called <code>fibo.py</code> in the current directory with the following contents:<br><br>
+                <code class='block'>
+                    # Fibonacci numbers module<br><br>
+
+                    def fib(n):    # write Fibonacci series up to n<br>
+                        a, b = 0, 1<br>
+                        while a < n:<br>
+                            print(a, end=' ')<br>
+                            a, b = b, a+b<br>
+                        print()<br><br>
+
+                    def fib2(n):   # return Fibonacci series up to n<br>
+                        result = []<br>
+                        a, b = 0, 1<br>
+                        while a < n:<br>
+                            result.append(a)<br>
+                            a, b = b, a+b<br>
+                        return result<br>
+                </code><br>
+                Now enter the Python interpreter and import this module with the following command:<br><br>
+                <code class='block'>
+                    >>> import fibo
+                </code><br>
+                This does not enter the names of the functions defined in fibo directly in the current symbol table; it only enters the module name fibo there. Using the module name you can access the functions:<br><br>
+                <code class='block'>
+                    >>> fibo.fib(1000)<br>
+                    0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987<br>
+                    >>> fibo.fib2(100)<br>
+                    [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]<br>
+                    >>> fibo.__name__<br>
+                    'fibo'<br>
+                </code><br>
+                If you intend to use a function often you can assign it to a local name:<br><br>
+                <code class='block'>
+                    >>> fib = fibo.fib<br>
+                    >>> fib(500)<br>
+                    0 1 1 2 3 5 8 13 21 34 55 89 144 233 377<br>
+                </code>
+            </p>
+        </section>
+
+        <section class='main-section' id='Input_and_Output'>
+        <header><h1>Input and Output</h1></header>
+            <p>
+                There are several ways to present the output of a program; data can be printed in a human-readable form, or written to a file for future use. This chapter will discuss some of the possibilities.
+            </p>
+        </section>
+
+        <section class='main-section' id='Errors_and_Exceptions'>
+        <header><h1>Errors and Exceptions</h1></header>
+            <p>
+                Until now error messages haven’t been more than mentioned, but if you have tried out the examples you have probably seen some. There are (at least) two distinguishable kinds of errors: syntax errors and exceptions.
+            </p>
+        </section>
+
+        <section class='main-section' id='Classes'>
+        <header><h1>Classes</h1></header>
+            <p>
+                Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for 
+                maintaining its state. Class instances can also have methods (defined by its class) for modifying its state.<br><br>
+
+Compared with other programming languages, Python’s class mechanism adds classes with a minimum of new syntax and semantics. It is a mixture of the class mechanisms found in C++ and Modula-3. Python classes provide all the 
+standard features of Object Oriented Programming: the class inheritance mechanism allows multiple base classes, a derived class can override any methods of its base class or classes, and a method can call the method of a base class 
+with the same name. Objects can contain arbitrary amounts and kinds of data. As is true for modules, classes partake of the dynamic nature of Python: they are created at runtime, and can be modified further after creation.<br><br>
+
+In C++ terminology, normally class members (including the data members) are public (except see below <a target='_blank' href="https://docs.python.org/3/tutorial/classes.html#tut-private">Private Variables</a> ), and all member functions are virtual. As in Modula-3, there are no shorthands for referencing the object’s 
+members from its methods: the method function is declared with an explicit first argument representing the object, which is provided implicitly by the call. As in Smalltalk, classes themselves are objects. This provides semantics for 
+importing and renaming. Unlike C++ and Modula-3, built-in types can be used as base classes for extension by the user. Also, like in C++, most built-in operators with special syntax (arithmetic operators, subscripting etc.) can be redefined
+ for class instances.<br><br>
+
+(Lacking universally accepted terminology to talk about classes, I will make occasional use of Smalltalk and C++ terms. I would use Modula-3 terms, since its object-oriented semantics are closer to those of Python than C++, but I 
+expect that few readers have heard of it.)
+            </p>
+        </section>
+
+        <section class="main-section" id='Other_Languages'>
+            <header><h3>Other Languages</h3></header>
+            <ol>
+                <li><a class='lang' target="_blank" href="https://devdocs.io/html/">HTML</a></li>
+                <li><a target='_blank' href="https://devdocs.io/css/">CSS</a></li>
+                <li><a target='_blank' href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a></li>
+                <li><a target='_blank' href="https://docs.oracle.com/en/java/">Java</a></li>
+                <li><a target='_blank' href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/">C#</a></li>
+            </ol><br><br>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
